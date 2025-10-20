@@ -1,0 +1,79 @@
+# ================================
+# Python / FastAPI Backend Ignore
+# ================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+myenv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Firebase service account key (IMPORTANT!)
+firebase-service-account.json
+*.key.json
+*.pem
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# macOS / Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.cover
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Database / temporary files
+*.sqlite3
+*.db
+tmp/
+temp/
+
+# Jupyter / notebooks (if any)
+.ipynb_checkpoints
+
+# IDE / Editor configs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# FastAPI specific
+# (Nothing special here yet, but good to have placeholder)
+# /staticfiles/
+# /media/
+
+# Docker / deployment
+docker-compose.override.yml
+*.env.docker
+*.env.prod
