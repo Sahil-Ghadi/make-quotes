@@ -26,6 +26,7 @@ export const quotesAPI = {
 
   // Get user's quotes (protected)
   getMyQuotes: async (token) => {
+    console.log(token);
     const response = await api.get('/quotes/my', {
       headers: {
         Authorization: `Bearer ${token}`
